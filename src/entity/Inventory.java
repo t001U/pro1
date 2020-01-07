@@ -1,13 +1,50 @@
-package com.entity;
+package com.Pro.entity;
 /**
- * 盘存报损表实体类
- * @author Administrator
+ *Inventory	存货表
+ * @author 1
  *
  */
 public class Inventory {
-
 	private int ID;
 	
+	private char CODE;
+	
+	private String DRUGID;
+	
+	private String BATCHID;
+	
+	private String CNAME;
+	
+	private String SPEC;
+	
+	private String UNIT;
+	
+	private double JOBPRICE;
+	
+	private double SALEPRICE;
+	
+	private int NUMBER;
+	
+	private int REALNUMBER;
+	
+	private int DOWNLIMIT;
+	
+	private int UPLIMIT;
+	
+	private int TYPE;
+	
+	private String TIMELIMIT;
+	
+	private String PROVIDER;
+	
+	private String EVENTTIME;
+	
+	private String CAUSE;
+	
+	private int STATE;
+	
+	private String INPUTCODE1;
+
 	public int getID() {
 		return ID;
 	}
@@ -16,11 +53,11 @@ public class Inventory {
 		ID = iD;
 	}
 
-	public String getCODE() {
+	public char getCODE() {
 		return CODE;
 	}
 
-	public void setCODE(String cODE) {
+	public void setCODE(char cODE) {
 		CODE = cODE;
 	}
 
@@ -64,19 +101,19 @@ public class Inventory {
 		UNIT = uNIT;
 	}
 
-	public int getJOBPRICE() {
+	public double getJOBPRICE() {
 		return JOBPRICE;
 	}
 
-	public void setJOBPRICE(int jOBPRICE) {
+	public void setJOBPRICE(double jOBPRICE) {
 		JOBPRICE = jOBPRICE;
 	}
 
-	public int getSALEPRICE() {
+	public double getSALEPRICE() {
 		return SALEPRICE;
 	}
 
-	public void setSALEPRICE(int sALEPRICE) {
+	public void setSALEPRICE(double sALEPRICE) {
 		SALEPRICE = sALEPRICE;
 	}
 
@@ -167,42 +204,6 @@ public class Inventory {
 	public void setINPUTCODE1(String iNPUTCODE1) {
 		INPUTCODE1 = iNPUTCODE1;
 	}
-
-	private String CODE;
 	
-	private String DRUGID;
 	
-	private String BATCHID;
-	
-	private String CNAME;
-	
-	private String SPEC;
-	
-	private String UNIT;
-	
-	private int JOBPRICE;
-	
-	private int SALEPRICE;
-	
-	private int NUMBER;
-	
-	private int REALNUMBER;
-	
-	private int DOWNLIMIT;
-	
-	private int UPLIMIT;
-	
-	private int TYPE;
-	
-	private String TIMELIMIT;
-	
-	private String PROVIDER;
-	
-	private String EVENTTIME;
-	
-	private String CAUSE;
-	
-	private int STATE;
-	
-	private String INPUTCODE1;
 }
